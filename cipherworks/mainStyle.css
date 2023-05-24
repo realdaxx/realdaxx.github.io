@@ -106,18 +106,47 @@ header {
     height: 230px;
   }
 
-  .welcomeback-text {
+  .play-title {
     position: absolute;
     color: #fff;
-    margin-right: auto;
-    margin-top: auto;
+    margin-left: -425px;
+    margin-top: -150px;
     font-size: 500%;
   }
 
-  .test-text {
+  .continueplaying-title {
     position: absolute;
     color: #fff;
-    bottom: 0;
-    left: 0;
-    margin: 0;
+    margin-left: -425px;
+    margin-top: -65px;
+    font-size: 250%;
+  }
+
+  .scroll-container {
+    width: 100%;
+    /*width: 1500px;
+    height: 100px;*/
+    overflow-x: scroll;
+    margin-left: -425px;
+  }
+  
+  .scroll-content {
+    width: 300px; /* Adjust this value as needed */
+    height: 300px;
+    white-space: nowrap;
+    position: absolute;
+    background: green;
+  }
+  
+  /* Optional styling for the scrollbars */
+  .scroll-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
   }
