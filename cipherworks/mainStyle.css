@@ -106,14 +106,18 @@ header {
     height: 230px;
   }
 
-  img, p {
+  .welcomeback-text {
     position: absolute;
-    width: 100%;
+    color: #fff;
+    margin-right: auto;
+    margin-top: auto;
+    font-size: 500%;
   }
-  
-  p {
+
+  .test-text {
+    position: absolute;
+    color: #fff;
     bottom: 0;
     left: 0;
-    color: #fff;
     margin: 0;
   }

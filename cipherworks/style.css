@@ -86,7 +86,8 @@ header {
 }
 
 .wrapper {
-    position: relative;
+    /*position: relative;*/    
+    position: absolute;
     width: 400px;
     height: 440px;
     background: transparent;
@@ -306,11 +307,20 @@ header {
     text-decoration: underline;
 }
 
-/*About*/
+  /*Welcome*/
 
-main {
-    align-items: center;
-}
+  .welcome-text {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    color: #fff;
+  }
+
+  .homepage-link {
+    position: absolute;
+    color: #fff;
+    margin-top: 50%;
+  }
 
 /*TOS*/
 
@@ -327,4 +337,13 @@ main {
     margin-top: 0px;
     border: 5px solid;
     background: dodgerblue;
+  }
+
+
+  /*About*/
+
+  .about-text {
+    align-items: center;
+    font-size: 250%;
+    color: #fff;
   }
